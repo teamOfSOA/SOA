@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Student xmlns="http://jw.nju.edu.cn/schema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://jw.nju.edu.cn/schema Student.xsd http://www.nju.edu.cn">
+         xmlns:nju="http://www.nju.edu.cn/schema"
+         xsi:schemaLocation="http://jw.nju.edu.cn/schema Student.xsd">
     <学号>171250573</学号>
     <学生信息>
         <个人信息>
             <!--这个地方使用的命名空间与全局定义的不同，需要指定-->
-            <nju:姓名 xmlns:nju="http://www.nju.edu.cn/schema">苑宇航</nju:姓名>
-            <nju:性别 xmlns:nju="http://www.nju.edu.cn/schema">male</nju:性别>
-            <nju:年龄 xmlns:nju="http://www.nju.edu.cn/schema">21</nju:年龄>
-            <nju:所在部门列表 xmlns:nju="http://www.nju.edu.cn/schema">
-                <nju:部门 xmlns:nju="http://www.nju.edu.cn/schema">000000</nju:部门>
-                <nju:部门 xmlns:nju="http://www.nju.edu.cn/schema">000001</nju:部门>
+            <nju:姓名>苑宇航</nju:姓名>
+            <nju:性别>male</nju:性别>
+            <nju:年龄>21</nju:年龄>
+            <nju:所在部门列表 >
+                <nju:部门>000000</nju:部门>
+                <nju:部门>000001</nju:部门>
             </nju:所在部门列表>
         </个人信息>
     </学生信息>
