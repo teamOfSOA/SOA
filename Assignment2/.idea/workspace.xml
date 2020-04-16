@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d76446-ed8b-47ac-a355-bb54b4d71cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/SOA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonInfo.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/PersonInfo.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,22 +70,41 @@
       <option name="presentableId" value="Default" />
       <updated>1587028655900</updated>
       <workItem from="1587028659195" duration="94000" />
-      <workItem from="1587030872778" duration="1288000" />
+      <workItem from="1587030872778" duration="1468000" />
     </task>
+    <task id="LOCAL-00001" summary="修改Student.xml中的nju命名空间定义位置">
+      <created>1587041494328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587041494328</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改Student.xml中的nju命名空间定义位置">
+      <created>1587041535100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587041535100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改Student.xml中的nju命名空间定义位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改Student.xml中的nju命名空间定义位置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587030893338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1587030893338" />
-    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1587041493360">
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1587041582957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587041493360" />
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587041582957" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587041420764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -116,10 +125,10 @@
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587041420764" />
     <state width="1872" height="265" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587041497926">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587041537072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587041497926" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587041537072" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587041271007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
