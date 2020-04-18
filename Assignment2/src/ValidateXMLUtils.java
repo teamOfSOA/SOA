@@ -48,8 +48,8 @@ public class ValidateXMLUtils {
         }
     }
     public static void main(String[] args) {
-        String xsdpath="Student.xsd";
-        String xmlpath="Student.xml";
+        String xsdpath="StudentList.xsd";
+        String xmlpath="StudentList.xml";
         try {
             Map<String, Object> validatexml = Validatexml(xmlpath,xsdpath);
             System.out.println(validatexml);//{message=数据校验成功, status=1}

@@ -7,42 +7,41 @@
     <import namespace="http://www.nju.edu.cn/schema"
             schemaLocation="./PersonInfo.xsd" />
 
-    <include schemaLocation="./Course.xsd"></include>
-    <include schemaLocation="./Department.xsd"></include>
-    <include schemaLocation="./ScoreList.xsd"></include>
+    <include schemaLocation="./Course.xsd"/>
+    <include schemaLocation="./Department.xsd"/>
+    <include schemaLocation="./ScoreList.xsd"/>
 
+    <element name="学生" type="tns:学生类型"/>
 
-    <element name="Student">
-        <complexType>
+    <complexType name="学生类型">
             <sequence maxOccurs="unbounded">
-                <element name="学号" type="tns:学号类型"></element>
-                <element name="学生信息" type="tns:学生信息类型"></element>
-                <element name="参与课程列表" type="tns:参与课程列表类型"></element>
-                <element name="个人成绩列表" type="tns:个人成绩列表类型"></element>
+                <element name="学号" type="tns:学号类型"/>
+                <element name="学生信息" type="tns:学生信息类型"/>
+                <element name="参与课程列表" type="tns:参与课程列表类型"/>
+                <element name="个人成绩列表" type="tns:个人成绩列表类型"/>
             </sequence>
-        </complexType>
-    </element>
+    </complexType>
 
     <simpleType name="学号类型">
         <restriction base="string">
-            <length value="9"></length>
+            <length value="9"/>
         </restriction>
     </simpleType>
 
     <complexType name="学生信息类型">
         <sequence>
-            <element name="个人信息" type="nju:个人信息类型"></element>
+            <element name="个人信息" type="nju:个人信息类型"/>
         </sequence>
     </complexType>
 
     <complexType name="参与课程列表类型">
         <sequence minOccurs="0" maxOccurs="unbounded">
-            <element name="课程编号" type="tns:课程编号类型"></element>
+            <element name="课程编号" type="tns:课程编号类型"/>
         </sequence>
     </complexType>
     <complexType name="个人成绩列表类型">
         <sequence>
-            <element name="课程成绩列表" type="tns:课程成绩列表类型"></element>
+            <element name="课程成绩列表" type="tns:课程成绩列表类型"/>
         </sequence>
     </complexType>
 </schema>

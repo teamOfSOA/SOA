@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Student xmlns="http://jw.nju.edu.cn/schema"
+<学生 xmlns="http://jw.nju.edu.cn/schema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns:nju="http://www.nju.edu.cn/schema"
          xsi:schemaLocation="http://jw.nju.edu.cn/schema Student.xsd">
@@ -103,4 +103,4 @@
             </课程成绩>
         </课程成绩列表>
     </个人成绩列表>
-</Student>
+</学生>
