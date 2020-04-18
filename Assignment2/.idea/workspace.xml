@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d76446-ed8b-47ac-a355-bb54b4d71cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StudentList.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/SOA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DOMDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/Course.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreList.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/Student.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/StudentList.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentList.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/dom4j.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +31,21 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1acIrjS79GgKrPitoy2pHHuidnc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment3/DOMDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -83,7 +85,8 @@
       <workItem from="1587028659195" duration="94000" />
       <workItem from="1587030872778" duration="2648000" />
       <workItem from="1587172113907" duration="25000" />
-      <workItem from="1587174970654" duration="1164000" />
+      <workItem from="1587174970654" duration="1673000" />
+      <workItem from="1587189711874" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="修改Student.xml中的nju命名空间定义位置">
       <created>1587041494328</created>
@@ -106,58 +109,67 @@
       <option name="project" value="LOCAL" />
       <updated>1587041689102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改StudentList.xsd新建了StudentList.xml样例">
+      <created>1587176351443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587176351443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改Student.xml中的nju命名空间定义位置" />
     <MESSAGE value="修改Student.xml中的nju定义位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改Student.xml中的nju定义位置" />
+    <MESSAGE value="修改StudentList.xsd新建了StudentList.xml样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改StudentList.xsd新建了StudentList.xml样例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587030893338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1587030893338" />
-    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1587041688326">
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1587176348197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587041688326" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587172138010">
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587176348197" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587189906818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587172138010" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587176296858">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587189906818" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1587196474508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587176296858" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
     <state width="1872" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587176296857">
+    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1587196474508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587176296857" />
+    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
     <state width="1872" height="265" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587176296857">
+    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1587196474508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587176296857" />
+    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
     <state width="1872" height="265" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587176296857">
+    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1587196474508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587176296857" />
+    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
     <state width="1872" height="265" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587041692499">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587176354323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587041692499" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587172122905">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587176354323" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587189879468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587172122905" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587189879468" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587041271007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
