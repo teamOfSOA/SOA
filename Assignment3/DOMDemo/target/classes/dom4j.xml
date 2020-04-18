@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<rss version="2.0">
+  <channel>
+    <title><![这是一个DOM4J方式生成xml,需要导入dom4j-1.6.1.jar包 ]]></title>
+  </channel>
+</rss>
