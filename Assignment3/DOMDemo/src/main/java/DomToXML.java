@@ -27,6 +27,10 @@ public class DomToXML {
     private String[] scoreType = {"平时成绩","作业成绩","期末成绩","总评成绩"};
     private int Length = names.length;
 
+    /**
+     * 使用DOM建立xml文档
+     * @param xmlPath xml文档路径
+     */
     private void createXML(String xmlPath){
         //1.创建document对象，代表整个xml文档
         Document StudentList = DocumentHelper.createDocument();
@@ -94,6 +98,11 @@ public class DomToXML {
         }
     }
 
+    /**
+     * 验证建立的xml文档
+     * @param xsdPath schema脚本文件路径
+     * @param xmlPath 生成的xml文件路径
+     */
     private void compareXSD(String xsdPath,String xmlPath){
         //建立schema工厂
         SchemaFactory schemaFactory=SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");

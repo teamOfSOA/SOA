@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05d76446-ed8b-47ac-a355-bb54b4d71cc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1587172113907" duration="25000" />
       <workItem from="1587174970654" duration="1673000" />
       <workItem from="1587189711874" duration="6290000" />
-      <workItem from="1587259778345" duration="708000" />
+      <workItem from="1587259778345" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="修改Student.xml中的nju命名空间定义位置">
       <created>1587041494328</created>
