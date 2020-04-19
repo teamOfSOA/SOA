@@ -119,6 +119,7 @@ public class DomToXML {
                 validator.validate(source);
                 System.out.println("数据校验成功!");
             }catch(Exception ex){
+
                 String error=ex.getMessage();
                 error = error.substring(error.indexOf("valid.1.2.1:")+12);
                 System.out.println(error);
