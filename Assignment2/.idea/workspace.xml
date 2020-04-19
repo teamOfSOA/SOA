@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d76446-ed8b-47ac-a355-bb54b4d71cc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Course.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Department.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/PersonInfo.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/ScoreList.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/Student.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/StudentList.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreList.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentList.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +76,8 @@
       <workItem from="1587030872778" duration="2648000" />
       <workItem from="1587172113907" duration="25000" />
       <workItem from="1587174970654" duration="1673000" />
-      <workItem from="1587189711874" duration="6013000" />
+      <workItem from="1587189711874" duration="6290000" />
+      <workItem from="1587259778345" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="修改Student.xml中的nju命名空间定义位置">
       <created>1587041494328</created>
@@ -138,38 +129,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587176348197" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587189906818">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587259868801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587189906818" />
-    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1587196474508">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587259868801" />
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom" timestamp="1587196728659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
     <state width="1872" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1587196474508">
+    <state width="1491" height="209" key="GridCell.Tab.0.center" timestamp="1587196728659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
+    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
     <state width="1872" height="265" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1587196474508">
+    <state width="1491" height="209" key="GridCell.Tab.0.left" timestamp="1587196728659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
+    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
     <state width="1872" height="265" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1587196474508">
+    <state width="1491" height="209" key="GridCell.Tab.0.right" timestamp="1587196728659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587196474508" />
+    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
     <state width="1872" height="265" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587176354323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587176354323" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587189879468">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587259779600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587189879468" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587259779600" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587041271007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

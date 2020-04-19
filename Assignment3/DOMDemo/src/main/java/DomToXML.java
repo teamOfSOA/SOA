@@ -1,30 +1,37 @@
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-import com.sun.xml.internal.bind.v2.model.core.EnumLeafInfo;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.Namespace;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
+import org.xml.sax.SAXException;
+
+import javax.xml.transform.Source;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
 
 public class DomToXML {
 
-    private String[] names = {"name1","name2","name3","name4","name5"};
-    private String[] ids = {"171250573","171250573","171250573","171250573","171250573"};
-    private String[] genders = {"male","male","male","male","male"};
-    private String[] ages = {"21","21","21","21","21","21"};
+    private String[] names = {"余含章","勇中坚","夏汉仲","张建榕","陈凌晨","徐志威","殷承鉴","罗民胜",
+            "苑宇航","杨日东","濮宗悦","章诚","雷媛"};
+    private String[] ids = {"161250188","171250631","171250565","171250517","171250696","171250654",
+            "171250661","171250670","171250573","171250558","171250025","171250682","171250001"};
+    private String[] genders = {"male","male","male","male","male","male","male","male","male","male",
+            "female","male","female",};
+    private String[] ages = {"22","21","21","21","21","21","21","21","21","21","21","21","21"};
     private String[] scoreType = {"平时成绩","作业成绩","期末成绩","总评成绩"};
     private int Length = names.length;
 
-    private void createXML(){
+    private void createXML(String xmlPath){
         //1.创建document对象，代表整个xml文档
         Document StudentList = DocumentHelper.createDocument();
-        //2.创建根节点root
+        //2.创建根节点root并且添加命名空间
         Element root = StudentList.addElement("学生列表","http://jw.nju.edu.cn/schema");
-        //3.向rss节点中添加version属性
         root.addNamespace("xsi","http://www.w3.org/2001/XMLSchema-instance");
         root.addNamespace("nju","http://www.nju.edu.cn/schema");
         root.addAttribute("xsi:schemaLocation","http://jw.nju.edu.cn/schema StudentList.xsd");
@@ -73,7 +80,8 @@ public class DomToXML {
         OutputFormat format = OutputFormat.createPrettyPrint();
         format.setEncoding("UTF-8");
         //6.生成xml文件
-        File file = new File("StudentList.xml");
+
+        File file = new File(xmlPath);
         XMLWriter writer;
         try {
             writer = new XMLWriter(new FileOutputStream(file), format);
@@ -86,11 +94,43 @@ public class DomToXML {
         }
     }
 
-    /**
-     * @param args
-     */
+    private void compareXSD(String xsdPath,String xmlPath){
+        //建立schema工厂
+        SchemaFactory schemaFactory=SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+        //建立验证文档文件对象，利用此文件对象所封装的文件进行schema验证
+        File schemaFile=new File(xsdPath);
+        //利用schema工厂，接收验证文档文件对象生成Schema对象
+        try{
+            Schema schema=schemaFactory.newSchema(schemaFile);
+            //通过Schema产生针对于此Schema的验证器，利用schemaFile进行验证
+            Validator validator=schema.newValidator();
+            //得到验证的数据源
+            Source source=new StreamSource(xmlPath);
+            //开始验证，成功输出success!!!，失败输出fail
+            try{
+                validator.validate(source);
+                System.out.println("数据校验成功!");
+            }catch(Exception ex){
+                ex.printStackTrace();
+                String error=ex.getMessage();
+                error = error.substring(error.indexOf("valid.1.2.1:")+12);
+                System.out.println(error);
+            }
+        }
+        catch (SAXException ex){
+            ex.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
-        new DomToXML().createXML();
+        //生成的xml文件路径
+        String xmlPath = "StudentList.xml";
+        //匹配的xsd文件路径
+        String xsdPath = "StudentList.xsd";
+        //创建xml文档
+        new DomToXML().createXML(xmlPath);
+        //验证xml文档
+        new DomToXML().compareXSD(xsdPath,xmlPath);
     }
 
 }
