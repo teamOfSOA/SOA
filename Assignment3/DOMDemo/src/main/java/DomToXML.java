@@ -32,14 +32,14 @@ public class DomToXML {
      * @param xmlPath xml文档路径
      */
     private void createXML(String xmlPath){
-        //1.创建document对象，代表整个xml文档
+        //创建document对象，代表整个xml文档
         Document StudentList = DocumentHelper.createDocument();
-        //2.创建根节点root并且添加命名空间
+        //创建根节点root并且添加命名空间
         Element root = StudentList.addElement("学生列表","http://jw.nju.edu.cn/schema");
         root.addNamespace("xsi","http://www.w3.org/2001/XMLSchema-instance");
         root.addNamespace("nju","http://www.nju.edu.cn/schema");
         root.addAttribute("xsi:schemaLocation","http://jw.nju.edu.cn/schema StudentList.xsd");
-
+        //添加子元素
         for(int n = 0;n<Length;n++){
             Namespace namespace = root.getNamespace();
             Element Student = root.addElement("学生",namespace.getURI());
@@ -80,11 +80,10 @@ public class DomToXML {
                 }
             }
         }
-        //5.设置生成xml的格式
+        //设置生成xml的格式
         OutputFormat format = OutputFormat.createPrettyPrint();
         format.setEncoding("UTF-8");
-        //6.生成xml文件
-
+        //生成xml文件
         File file = new File(xmlPath);
         XMLWriter writer;
         try {
@@ -120,7 +119,6 @@ public class DomToXML {
                 validator.validate(source);
                 System.out.println("数据校验成功!");
             }catch(Exception ex){
-                ex.printStackTrace();
                 String error=ex.getMessage();
                 error = error.substring(error.indexOf("valid.1.2.1:")+12);
                 System.out.println(error);
