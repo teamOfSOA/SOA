@@ -119,7 +119,6 @@ public class DomToXML {
                 validator.validate(source);
                 System.out.println("数据校验成功!");
             }catch(Exception ex){
-
                 String error=ex.getMessage();
                 error = error.substring(error.indexOf("valid.1.2.1:")+12);
                 System.out.println(error);
@@ -132,9 +131,9 @@ public class DomToXML {
 
     public static void main(String[] args) {
         //生成的xml文件路径
-        String xmlPath = "StudentList.xml";
+        String xmlPath = "src/main/resources/StudentList.xml";
         //匹配的xsd文件路径
-        String xsdPath = "StudentList.xsd";
+        String xsdPath = "src/main/resources/StudentList.xsd";
         //创建xml文档
         new DomToXML().createXML(xmlPath);
         //验证xml文档

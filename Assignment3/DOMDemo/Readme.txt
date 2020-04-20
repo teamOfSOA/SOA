@@ -1,0 +1,3 @@
+本项目通过Dom方法构建xml文档，并且与schema脚本进行比对，判断是否符合要求。
+xml中的数据直接写在java代码中，由于需要导入dom4j依赖，采用maven项目的方式。
+用于校验的schema脚本和生成的xml均放在resources目录下。
