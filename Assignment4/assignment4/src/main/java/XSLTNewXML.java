@@ -14,8 +14,8 @@ public class XSLTNewXML {
         TransformerFactory tf = TransformerFactory.newInstance();
         try{
             Transformer transformer=tf.newTransformer(new StreamSource("src/main/resources/ScoreList.xsl"));
-            transformer.transform(new StreamSource("src/main/resources/test1.xml"),
-                    new StreamResult("src/main/resources/test2.xml"));
+            transformer.transform(new StreamSource("src/main/resources/StudentList.xml"),
+                    new StreamResult("src/main/resources/ScoreList.xml"));
         } catch (TransformerConfigurationException e) {
             e.printStackTrace();
         } catch (TransformerException e) {
