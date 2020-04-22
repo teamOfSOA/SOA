@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d76446-ed8b-47ac-a355-bb54b4d71cc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment4/assignment4/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment4/assignment4/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment4/assignment4/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/target/classes/DomToXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreList.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/ValidateXMLUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment2/ValidateXMLUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidateXMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidateXMLUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/java/DomToXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/resources/StudentList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/DOMDemo/src/main/resources/StudentList.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/java/XSLTNewXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/java/XSLTNewXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/ScoreList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/ScoreList.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/ScoreList.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/ScoreList.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/src/main/resources/test1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/target/classes/XSLTNewXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/target/classes/XSLTNewXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment4/assignment4/target/classes/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/assignment4/target/classes/test1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +50,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment3/DOMDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\服务端与SOA开发\SOA\Assignment2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\服务端与SOA开发\SOA\Assignment2\src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -78,6 +97,7 @@
       <workItem from="1587174970654" duration="1673000" />
       <workItem from="1587189711874" duration="6290000" />
       <workItem from="1587259778345" duration="1306000" />
+      <workItem from="1587539792487" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="修改Student.xml中的nju命名空间定义位置">
       <created>1587041494328</created>
@@ -133,25 +153,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587259868801" />
-    <state width="1491" height="209" key="GridCell.Tab.0.bottom" timestamp="1587196728659">
+    <state width="1478" height="207" key="GridCell.Tab.0.bottom" timestamp="1587540116472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
+    <state width="1478" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587540116472" />
     <state width="1872" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1491" height="209" key="GridCell.Tab.0.center" timestamp="1587196728659">
+    <state width="1478" height="207" key="GridCell.Tab.0.center" timestamp="1587540116472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
+    <state width="1478" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587540116472" />
     <state width="1872" height="265" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1491" height="209" key="GridCell.Tab.0.left" timestamp="1587196728659">
+    <state width="1478" height="207" key="GridCell.Tab.0.left" timestamp="1587540116472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
+    <state width="1478" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587540116472" />
     <state width="1872" height="265" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
-    <state width="1491" height="209" key="GridCell.Tab.0.right" timestamp="1587196728659">
+    <state width="1478" height="207" key="GridCell.Tab.0.right" timestamp="1587540116472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587196728659" />
+    <state width="1478" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587540116472" />
     <state width="1872" height="265" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1587028752940" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587176354323">
       <screen x="0" y="0" width="1536" height="824" />

@@ -4,7 +4,6 @@ import java.io.IOException;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
-import org.dom4j.Namespace;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
 import org.xml.sax.SAXException;
@@ -41,8 +40,7 @@ public class DomToXML {
         root.addAttribute("xsi:schemaLocation","http://jw.nju.edu.cn/schema StudentList.xsd");
         //添加子元素
         for(int n = 0;n<Length;n++){
-            Namespace namespace = root.getNamespace();
-            Element Student = root.addElement("学生",namespace.getURI());
+            Element Student = root.addElement("学生");
             Student.setParent(root);
             Element Id = Student.addElement("学号");
             Id.setText(ids[n]);

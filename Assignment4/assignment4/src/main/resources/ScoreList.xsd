@@ -10,7 +10,6 @@
     <include schemaLocation="./Course.xsd"/>
 
 
-
     <simpleType name="成绩性质类型">
         <restriction base="string">
             <enumeration value="平时成绩"/>
@@ -28,7 +27,6 @@
     </complexType>
 
     <element name="课程成绩列表" type="tns:课程成绩列表类型"/>
-
 
     <complexType name="课程成绩类型">
         <sequence minOccurs="0" maxOccurs="unbounded">

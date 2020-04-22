@@ -1,9 +1,12 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:output method="xml" version="1.0" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
-<!--    <xsl:namespace-alias stylesheet-prefix="nju" result-prefix="nju"/>-->
-    <xsl:template match="/">
+<xsl:stylesheet
+        xmlns:std="http://jw.nju.edu.cn/schema"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
+    <!--    <xsl:namespace-alias stylesheet-prefix="nju" result-prefix="nju"/>-->
+    <xsl:template match="/std:学生列表">
         <xsl:element name="课程成绩列表">
-            <xsl:for-each select="//学生">
+            <xsl:for-each select="std:学生">
+                <xsl:value-of select="std:学号"/>
                 <xsl:call-template name="template2"/>
             </xsl:for-each>
         </xsl:element>
