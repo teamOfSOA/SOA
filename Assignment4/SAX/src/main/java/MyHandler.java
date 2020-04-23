@@ -8,6 +8,7 @@ import java.util.List;
 public class MyHandler extends DefaultHandler {
 
     public List<CourseGrade> l=new ArrayList<CourseGrade>();
+    public List<CourseGrade> res=new ArrayList<CourseGrade>();
     public String currentTag;
 
     public void startElement(String uri, String localName, String qName,
@@ -37,16 +38,37 @@ public class MyHandler extends DefaultHandler {
             }
             else if(currentTag.equals("得分")){
                 int score=Integer.parseInt(temp);
-                if(score>=60){
-                    l.remove(l.size()-1);
-                }
-                else{
-                    CourseGrade cg=l.get(l.size()-1);
-                    cg.grade.score=score;
-                    l.set(l.size()-1,cg);
-                }
+                CourseGrade cg=l.get(l.size()-1);
+                cg.grade.score=score;
+                l.set(l.size()-1,cg);
             }
         }
     }
 
+    @Override
+    public void endDocument() throws SAXException {
+        for(int i=0;i<l.size();){
+            if(l.get(i).grade.score<60){
+                switch(i%4){
+                    case 0:
+                        res.add(l.get(i));res.add(l.get(i+1));res.add(l.get(i+2));res.add(l.get(i+3));
+                        i+=4;
+                        break;
+                    case 1:
+                        res.add(l.get(i-1));res.add(l.get(i));res.add(l.get(i+1));res.add(l.get(i+2));
+                        i+=3;
+                        break;
+                    case 2:
+                        res.add(l.get(i-2));res.add(l.get(i-1));res.add(l.get(i));res.add(l.get(i+1));
+                        i+=2;
+                        break;
+                    case 3:
+                        res.add(l.get(i-3));res.add(l.get(i-2));res.add(l.get(i-1));res.add(l.get(i));
+                        i++;
+                        break;
+                }
+            }
+            else{i++;}
+        }
+    }
 }

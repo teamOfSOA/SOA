@@ -37,7 +37,7 @@ public class SAX {
             handler.startDocument();
             handler.characters("\n".toCharArray(),0,"\n".length());
             handler.startElement("", "", "课程成绩列表", attr);
-            for(CourseGrade cg:mh.l){
+            for(CourseGrade cg:mh.res){
                 attr.clear();
                 attr.addAttribute("","","课程编号","",cg.courseId);
                 attr.addAttribute("","","成绩性质","",cg.type);
