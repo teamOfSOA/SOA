@@ -1,0 +1,18 @@
+#功能分成两部分：
+##解析ScoreList.xml
+创建一个MyHandler类继承SAX API的DefaultHandler，  
+并重写其中的方法可以实现筛选功能，  
+MyHandler类中维护了一个List用于存储不合格的成绩信息，  
+把筛选出的数据存到Grade和CourseGrade对象的实例中，  
+最开始我的想法是尽量与ScoreList.xsd的数据结构一致，  
+所以创建了Grade和CourseGrade两个类，  
+但写着写着就发现其实没必要，不过为了一致性还是没有改，  
+详见Assignment4/SAX/src/main/java/*
+##生成XML4
+调用SAX自带的生成方法，  
+从List中拿数据，  
+按结构按顺序生成Document、Element、Character、Attribute，  
+然后依次关闭就可以了，  
+我没在网上找到自动生成缩进的方法，  
+所以通过添加Character添加了缩进，  
+详见Assignment4/SAX/src/main/resources/XML4.xml

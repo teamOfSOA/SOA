@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c41bbb8e-ac08-458d-8678-e428effa780f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/DOMDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/Assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/Student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/out/production/Assignment2/ValidateXMLUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/src/ValidateXMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/DOMDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/DOMDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/java/DomToXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/src/main/resources/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/DomToXML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment3/DOMDemo/target/classes/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CourseGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SAX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ScoreList.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/XML4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CourseGrade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MyHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SAX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ScoreList.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/assignment4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/java/XSLTNewXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/ScoreList.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/src/main/resources/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/ScoreList.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XSLTDemo/target/classes/XSLTNewXML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1avf4nO1UfecNhvGjjM3kffxERw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.19721329" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asd\Desktop\SOA-master\Assignment4\SAX\src" />
+      <recent name="C:\Users\asd\Desktop\SOA-master\Assignment4\SAX" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SAX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SAX" />
+      <module name="SAX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SAX" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c41bbb8e-ac08-458d-8678-e428effa780f" name="Default Changelist" comment="" />
+      <created>1587620799899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587620799899</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="3" key="CommitChangelistDialog2" timestamp="1587621037283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587621037283" />
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom" timestamp="1587621040932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587621040932" />
+    <state width="1495" height="211" key="GridCell.Tab.0.center" timestamp="1587621040932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587621040932" />
+    <state width="1495" height="211" key="GridCell.Tab.0.left" timestamp="1587621040932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587621040932" />
+    <state width="1495" height="211" key="GridCell.Tab.0.right" timestamp="1587621040932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1495" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587621040932" />
+  </component>
+</project>
