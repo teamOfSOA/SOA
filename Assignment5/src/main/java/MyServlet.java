@@ -34,7 +34,6 @@ public class MyServlet extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("id");
-        StringBuilder soapXML = new StringBuilder();
         String errorMessage = "";
         switch (isId(id)){
             case 1:errorMessage = "学生id中只能包含数字!";
@@ -145,7 +144,7 @@ public class MyServlet extends HttpServlet {
         if (message != null) {
             try (ByteArrayOutputStream bao = new ByteArrayOutputStream()) {
                 message.writeTo(bao);
-                result = bao.toString("utf-8");
+                result = bao.toString("utf-8").replaceAll("><",">\n<");
             } catch (Exception ignored) {
             }
         }
