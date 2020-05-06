@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <m:updateScore env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"
+                       xmlns:m="http://www.w3.org/2001/XMLSchema-instance">
+
+            <m:updateContent>
+                <m:studentId>171250670</m:studentId>
+                <m:courseId>100000</m:courseId>
+                <m:scoreType>平时成绩</m:scoreType>
+                <m:score>89</m:score>
+            </m:updateContent>
+
+            <m:updateContent>
+                <m:studentId>171250670</m:studentId>
+                <m:courseId>000000</m:courseId>
+                <m:scoreType>总评成绩</m:scoreType>
+                <m:score>89</m:score>
+            </m:updateContent>
+
+            <m:updateContent>
+                <m:studentId>161250188</m:studentId>
+                <m:courseId>000000</m:courseId>
+                <m:scoreType>总评成绩</m:scoreType>
+                <m:score>89</m:score>
+            </m:updateContent>
+
+            <m:updateContent>
+                <m:studentId>161250188</m:studentId>
+                <m:courseId>000001</m:courseId>
+                <m:scoreType>总评成绩</m:scoreType>
+                <m:score>89</m:score>
+            </m:updateContent>
+
+        </m:updateScore>
+    </env:Body>
+</env:Envelope>
