@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://jw.nju.edu.cn/schema"
+        xmlns:tns="http://jw.nju.edu.cn/schema">
+
+    <xs:include schemaLocation="./ScoreList.xsd"/>
+
+    <xs:element name="c_Request" type="tns:学生类型"/>
+    <xs:element name="c_Response" type="tns:学生类型"/>
+    <xs:element name="r_Request" type="xs:string"/>
+    <xs:element name="r_Response" type="tns:学生类型"/>
+    <xs:element name="u_Request" type="tns:学生类型"/>
+    <xs:element name="u_Response" type="tns:学生类型"/>
+    <xs:element name="d_Request" type="tns:学生类型"/>
+    <xs:element name="d_Response" type="tns:学生类型"/>
+    <xs:element name="load_Request" type="tns:学生类型"/>
+    <xs:element name="load_Response" type="xs:string"/>
+
+    <xs:element name="error" type="xs:string"/>
+
+</xs:schema>
+
