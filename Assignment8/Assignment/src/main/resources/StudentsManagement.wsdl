@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<description
+    xmlns="http://www.w3.org/ns/wsdl"
+    targetNamespace="http://jw.nju.edu.cn/wsdl"
+    xmlns:tns="http://jw.nju.edu.cn/wsdl"
+    xmlns:ghns="http://jw.nju.edu.cn/schema"
+    xmlns:wsdlx="http://www.w3.org/ns/wsdl-extensions"
+    xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
+    xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <documentation>
+        something about the service
+    </documentation>
+    <types>
+        <xs:schema
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://jw.nju.edu.cn/schema">
+            <xs:element name="invalidDateError" type="xs:string"/>
+        </xs:schema>
+    </types>
+    <interface name="studentPersonalInfoManageInterface">
+        <fault>
+
+        </fault>
+        <operation name="studentPersonalInfoAdd"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+        <operation name="studentPersonalInfoDelete"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+        <operation name="studentPersonalInfoUpdate"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+        <operation name="studentPersonalInfoRead"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+    </interface>
+    <interface name="studentIdentityValidationInterface">
+        <operation name="studentIDValidation"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+        <operation name="studentDepartmentValidation"
+                   pattern="http://www.w3.org/ns/wsdl/in-out"
+                   style="http://www.w3.org/ns/wsdl/style/in"
+                   wsdlx:safe="true">
+            <input messageLabel="In" element=""/>
+            <output messageLable="Out" element=""/>
+            <outfault ref="" messageLabel="Out"/>
+        </operation>
+    </interface>
+    <binding name="studentPersonalInfoManageSOAPBinding"
+             interface="tns:studentPersonalInfoManageInterface"
+             type="http://www.w3.org/ns/wsdl/soap"
+             wsoap:protocol="http://www.w3.org/2003/05/soap/bindings/HTTP/">
+        <operation ref=""
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <fault ref=""
+               wsoap:code="soap:Sender"/>
+    </binding>
+    <service name="studentPersonalInfoManageService"
+             interface="tns:studentPersonalInfoManageInterface">
+        <endpoint name="studentPersonalInfoManageEndpoint"
+                  binding="tns:studentPersonalInfoManageSOAPBinding"
+                  address="http://www.example.com/2020/wsdl/studentSvc"/>
+    </service>
+</description>
