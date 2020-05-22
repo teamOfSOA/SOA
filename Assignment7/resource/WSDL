@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<description
+    xmlns="http://www.w3.org/ns/wsdl"
+    targetNameSpace="http://jw.nju.edu.cn/wsdl"
+    xmlns:tns="http://jw.nju.edu.cn/wsdl"
+    xmlns:stns="http://jw.nju.edu.cn/schema"
+    xmlns:wsoap="http://www.w3.org/ns/wsdl/soap">
+
+    <doocument>
+        在作业5和作业6中已经完成了成绩管理的查看和更新，作业7中添加了增加和删除，完善了成绩管理服务
+        主要定义了两种类型的错误：soap错误和数据格式错误
+        使用http binding
+        可以在"http://jw.nju.edu.cn/wsdl/成绩管理服务_Service"访问成绩管理服务
+    </doocument>
+
+    <types>
+        <schema
+                xmlns="http://www.w3.org/2001/XMLSchema"
+                targetNamespace="http://jw.nju.edu.cn/schema"
+                xmlns:tns="http://jw.nju.edu.cn/schema">
+            <import namespace="http://jw.nju.edu.cn/schema" schemaLocation="Type.xsd" />
+        </schema>
+    </types>
+
+    <interface name="成绩管理服务">
+        <fault name="soapError" element="stns:soapError"/>
+        <fault name="dataError" element="stns:dataError"/>
+
+        <operation name="c"
+                   pattern="http://www.w3.org/ns/wsdl/in-out">
+            <input messageLabel="In" element="c_Request"/>
+            <output messageLabel="Out" element="c_Response"/>
+            <outfault messageLabel="Out" ref="tns:soapError"/>
+            <outfault messageLabel="Out" ref="stns:dataError"/>
+        </operation>
+        <operation name="r"
+                   pattern="http://www.w3.org/ns/wsdl/in-out">
+            <input messageLabel="In" element="r_Request"/>
+            <output messageLabel="Out" element="r_Response"/>
+            <outfault messageLabel="Out" ref="tns:soapError"/>
+            <outfault messageLabel="Out" ref="stns:dataError"/>
+        </operation>
+        <operation name="u"
+                   pattern="http://www.w3.org/ns/wsdl/in-out">
+            <input messageLabel="In" element="u_Request"/>
+            <output messageLabel="Out" element="u_Response"/>
+            <outfault messageLabel="Out" ref="tns:soapError"/>
+            <outfault messageLabel="Out" ref="stns:dataError"/>
+        </operation>
+        <operation name="d"
+                   pattern="http://www.w3.org/ns/wsdl/in-out">
+            <input messageLabel="In" element="d_Request"/>
+            <output messageLabel="Out" element="d_Response"/>
+            <outfault messageLabel="Out" ref="tns:soapError"/>
+            <outfault messageLabel="Out" ref="stns:dataError"/>
+        </operation>
+    </interface>
+
+    <binding
+            name="成绩管理服务_SOAPBinding"
+            interface="tns:成绩管理服务"
+            type="http://www.w3.org/ns/wsdl/soap"
+            wsoap:protocol="http://www.w3.org/2003/05/soap/bindings/HTTP/">
+        <fault ref="tns:errors" wsoap:code="soap:Sender"/>
+        <operation ref="tns:c" wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <operation ref="tns:r" wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <operation ref="tns:u" wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+        <operation ref="tns:d" wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>
+    </binding>
+
+    <service
+            name="成绩管理服务_Service"
+            interface="tns:成绩管理服务">
+        <endpoint
+                name="成绩管理服务_Endpoint"
+                binding="成绩管理服务_SOAPBinding"
+                address="http://jw.nju.edu.cn/wsdl/成绩管理服务_Service"/>
+    </service>
+
+</description>
