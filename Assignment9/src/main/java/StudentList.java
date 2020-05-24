@@ -9,8 +9,7 @@ public class StudentList {
     private ArrayList<Student> studentList;
     private String SchemaLocation;
 
-    public StudentList() {
-    }
+    public StudentList(){}
 
     public StudentList(ArrayList<Student> students) {
         this.studentList = students;

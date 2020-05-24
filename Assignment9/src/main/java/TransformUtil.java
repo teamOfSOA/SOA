@@ -1,14 +1,18 @@
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class TransformUtil {
 
-    public static void java2Xml(StudentList stu) throws JAXBException, IOException {
+    String[] ids = {"161250188", "171250631", "171250565", "171250517", "171250696", "171250654", "171250661", "171250670", "171250573", "171250558", "171250025", "171250682", "171250001"};
+    String[] names = {"余含章", "勇中坚", "夏汉仲", "张建榕", "陈凌晨", "徐志威", "殷承鉴", "罗民胜", "苑宇航", "杨日东", "濮宗悦", "章诚", "雷媛"};
+    String[] genders = {"male", "male", "male", "male", "male", "male", "male", "male", "male", "male", "female", "male", "female"};
+    int[] ages = {22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21};
+
+    private void java2Xml(StudentList stu) throws JAXBException, IOException {
         JAXBContext context = JAXBContext.newInstance(StudentList.class);
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
@@ -20,19 +24,8 @@ public class TransformUtil {
 //        marshaller.marshal(stu, out);
     }
 
-//    public static void xml2Java() throws JAXBException {
-//        JAXBContext context = JAXBContext.newInstance(Student.class);
-//        Unmarshaller unmarshaller = context.createUnmarshaller();
-//        InputStream stream = TransformUtil.class.getClassLoader().getResourceAsStream("Student_backup.xml");
-//        Student student = (Student) unmarshaller.unmarshal(stream);
-//        System.out.println(student);
-//    }
 
-    public static void main(String[] args) {
-        String[] ids = {"161250188", "171250631", "171250565", "171250517", "171250696", "171250654", "171250661", "171250670", "171250573", "171250558", "171250025", "171250682", "171250001"};
-        String[] names = {"余含章", "勇中坚", "夏汉仲", "张建榕", "陈凌晨", "徐志威", "殷承鉴", "罗民胜", "苑宇航", "杨日东", "濮宗悦", "章诚", "雷媛"};
-        String[] genders = {"male", "male", "male", "male", "male", "male", "male", "male", "male", "male", "female", "male", "female"};
-        int[] ages = {22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21};
+    public void trans(){
         ArrayList<Student> students = new ArrayList<Student>();
         for (int i = 0; i < 13; i++) {
             ArrayList<String> departments = new ArrayList<String>();
