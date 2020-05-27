@@ -48,13 +48,6 @@ public class SelectUtil {
             }
         }
 //        再根据bean对象生成xml4
-        s.setClassScores(result);
-        JAXBContext context2 = JAXBContext.newInstance(SortScoreList.class);
-        Marshaller marshaller = context2.createMarshaller();
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        File file = new File("src\\main\\resources\\xml4.xml");
-        if(!file.exists())
-            file.createNewFile();
-        marshaller.marshal(s, file);
+        SortUtil.sortScore(s, result, "src\\main\\resources\\xml4.xml");
     }
 }

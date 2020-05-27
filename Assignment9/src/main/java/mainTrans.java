@@ -9,6 +9,6 @@ public class mainTrans {
         SortUtil sortUtil = new SortUtil();
         sortUtil.trans();
         SelectUtil selectUtil=new SelectUtil();
-        selectUtil.select();
+        //selectUtil.select();
     }
 }
