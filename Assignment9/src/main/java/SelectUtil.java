@@ -17,36 +17,17 @@ public class SelectUtil {
 //        从l中筛选不及格的成绩到result中
         ArrayList<ClassScore> l=s.getClassScores();
         ArrayList<ClassScore> result=new ArrayList<>();
-        for(int i=0;i<l.size();i++){
-            if(l.get(i).getScore().getGrade()<60){
-                switch(i%4){
-                    case 0:
-                        for(int j=0;j<=3;j++){
-                            result.add(l.get(i+j));
-                        }
-                        i+=4;
-                        break;
-                    case 1:
-                        for(int j=-1;j<=2;j++){
-                            result.add(l.get(i+j));
-                        }
-                        i+=3;
-                        break;
-                    case 2:
-                        for(int j=-2;j<=1;j++){
-                            result.add(l.get(i+j));
-                        }
-                        i+=2;
-                        break;
-                    case 3:
-                        for(int j=-3;j<0;j++){
-                            result.add(l.get(i+j));
-                        }
-                        i+=1;
-                        break;
-                }
+        
+        for (int i = 0; i < l.size(); i += 4){
+            boolean needRecord = false;
+            for (int j = 0; j <= 3; j ++){
+                if(l.get(i+j).getScore().getGrade()<60){ needRecord = true; break; }
+            }
+            if(needRecord){
+                for(int j = 0; j <= 3; j ++) result.add(l.get(i+j));
             }
         }
+        
 //        再根据bean对象生成xml4
         SortUtil.sortScore(s, result, "src\\main\\resources\\xml4.xml");
     }
