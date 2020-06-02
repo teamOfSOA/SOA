@@ -29,7 +29,7 @@ public class CheckServlet extends HttpServlet{
                 System.out.println("页面提交:" + username+password);
                 //  验证成功，跳转成功页面
                 req.setAttribute("username", username);
-                req.getRequestDispatcher("/success.jsp").forward(req, resp);
+                req.getRequestDispatcher("success.jsp").forward(req, resp);
             }else {
                 //  验证失败
                 req.getRequestDispatcher("fail.jsp").forward(req, resp);
