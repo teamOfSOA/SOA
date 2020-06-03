@@ -15,7 +15,7 @@ public class JavaMailUtil {
     // 发件人邮箱服务地址-修改为自己的
     public static String emailSMTPHost = "smtp.qq.com";
     //  收件人邮箱
-    public static String receiveMailAccount = "171250661@samil.nju.edu.cn";
+    public static String receiveMailAccount = "";
 
 
     /**

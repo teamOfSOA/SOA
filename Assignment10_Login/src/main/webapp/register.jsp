@@ -17,8 +17,6 @@
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
-
     <style type="text/css">
         #register {
             width: 450px;
@@ -40,14 +38,13 @@
         }
     </style>
 
-
     <script type="text/javascript">
         $(function(){
             $("#btn").click(function(){
                     if($("#email").val()){
                         $.ajax({
                             type:"POST",
-                            url :"SendEmailServlet?random"+Math.random(),
+                            url :"SendEmailServlet",
                             data:{
                                 email:$("#email").val(),
                             },

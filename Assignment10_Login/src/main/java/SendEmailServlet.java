@@ -26,6 +26,7 @@ public class SendEmailServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             JavaMailUtil.receiveMailAccount = req.getParameter("email"); // 给用户输入的邮箱发送邮件
+            System.out.println(JavaMailUtil.receiveMailAccount);
             // 1、创建参数配置，用于连接邮箱服务器的参数配置
             Properties props = new Properties();
             // 开启debug调试
