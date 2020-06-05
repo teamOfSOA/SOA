@@ -8,6 +8,5 @@
 package com;
 
 public interface HelloWorld_PortType extends java.rmi.Remote {
-    public java.lang.String sendMailTo(java.lang.String targetAddress) throws java.rmi.RemoteException;
-    public java.lang.String checkCode(java.lang.String input) throws java.rmi.RemoteException;
+    public java.lang.String sayHelloWorldFrom(java.lang.String from) throws java.rmi.RemoteException;
 }

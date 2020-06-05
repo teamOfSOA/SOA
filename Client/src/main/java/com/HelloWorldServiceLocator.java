@@ -7,7 +7,7 @@
 
 package com;
 
-public class HelloWorldServiceLocator extends org.apache.axis.client.Service implements com.HelloWorldService {
+public class HelloWorldServiceLocator extends org.apache.axis.client.Service implements HelloWorldService {
 
     public HelloWorldServiceLocator() {
     }
@@ -39,7 +39,7 @@ public class HelloWorldServiceLocator extends org.apache.axis.client.Service imp
         HelloWorldWSDDServiceName = name;
     }
 
-    public com.HelloWorld_PortType getHelloWorld() throws javax.xml.rpc.ServiceException {
+    public HelloWorld_PortType getHelloWorld() throws javax.xml.rpc.ServiceException {
        java.net.URL endpoint;
         try {
             endpoint = new java.net.URL(HelloWorld_address);
@@ -50,9 +50,9 @@ public class HelloWorldServiceLocator extends org.apache.axis.client.Service imp
         return getHelloWorld(endpoint);
     }
 
-    public com.HelloWorld_PortType getHelloWorld(java.net.URL portAddress) throws javax.xml.rpc.ServiceException {
+    public HelloWorld_PortType getHelloWorld(java.net.URL portAddress) throws javax.xml.rpc.ServiceException {
         try {
-            com.HelloWorldSoapBindingStub _stub = new com.HelloWorldSoapBindingStub(portAddress, this);
+            HelloWorldSoapBindingStub _stub = new HelloWorldSoapBindingStub(portAddress, this);
             _stub.setPortName(getHelloWorldWSDDServiceName());
             return _stub;
         }
@@ -72,8 +72,8 @@ public class HelloWorldServiceLocator extends org.apache.axis.client.Service imp
      */
     public java.rmi.Remote getPort(Class serviceEndpointInterface) throws javax.xml.rpc.ServiceException {
         try {
-            if (com.HelloWorld_PortType.class.isAssignableFrom(serviceEndpointInterface)) {
-                com.HelloWorldSoapBindingStub _stub = new com.HelloWorldSoapBindingStub(new java.net.URL(HelloWorld_address), this);
+            if (HelloWorld_PortType.class.isAssignableFrom(serviceEndpointInterface)) {
+                HelloWorldSoapBindingStub _stub = new HelloWorldSoapBindingStub(new java.net.URL(HelloWorld_address), this);
                 _stub.setPortName(getHelloWorldWSDDServiceName());
                 return _stub;
             }

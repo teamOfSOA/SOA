@@ -2,6 +2,7 @@ package example;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+import java.util.HashMap;
 import java.util.Properties;
 import javax.mail.Message;
 import javax.mail.Session;
@@ -13,12 +14,18 @@ import com.sun.mail.util.MailSSLSocketFactory;
 @WebService
 public class HelloWorld {
 
-  private String code;
-  private String target;
+  //邮箱和验证码缓存
+  private HashMap<String, String> mailMap = new HashMap<String, String>();
 
+  /**
+   * 发送邮件方法
+   * @param targetAddress 目标邮箱地址
+   * @return 发送结果
+   * @throws Exception e
+   */
   @WebMethod
   public String sendMailTo(String targetAddress) throws Exception {
-    target = targetAddress;
+
     Properties prop = new Properties();
     // 开启debug调试，以便在控制台查看
     prop.setProperty("mail.debug", "true");
@@ -50,10 +57,13 @@ public class HelloWorld {
   }
 
   /**
-   * @Method: createSimpleMail
-   * @Description: 创建一封只包含文本的邮件
+   * 生成邮件方法
+   * @param session session
+   * @param targetAddress 目标地址
+   * @return message
+   * @throws Exception e
    */
-  public MimeMessage createSimpleMail(Session session, String targetAddress) throws Exception {
+  private MimeMessage createSimpleMail(Session session, String targetAddress) throws Exception {
     //  获取6为随机验证码
     String[] letters = new String[] {
             "q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m",
@@ -63,7 +73,8 @@ public class HelloWorld {
     for (int i = 0; i < 6; i++) {
       stringBuilder.append(letters[(int) Math.floor(Math.random() * letters.length)]);
     }
-    code = String.valueOf(stringBuilder);
+    mailMap.put(targetAddress,String.valueOf(stringBuilder));
+
     // 创建邮件对象
     MimeMessage message = new MimeMessage(session);
     // 指明邮件的发件人
@@ -79,13 +90,27 @@ public class HelloWorld {
     return message;
   }
 
+  /**
+   * 验证方法
+   * @param input 输入包含地址和验证码用：隔开
+   * @return 身份验证信息
+   */
   @WebMethod
-  public String checkCode(String inputCode){
+  public String checkCode(String input){
+    String inputCode = input.split(":")[1];//验证码
+    String target = input.split(":")[0];//邮箱地址
     String result;
+    String code = mailMap.get(target);
     if(code.equals(inputCode)){
       result = "验证成功";
-      if(target.contains("smail")){
-        result+=",身份为学生";
+      if(target.contains("@smail")){
+        if(target.split("@")[0].contains("MF")){
+          result+=",身份为研究生";
+        }else if(target.split("@")[0].contains("MG")){
+          result+=",身份为博士生";
+        }else if(onlyNumber(target.split("@")[0])){
+          result+=",身份为本科生";
+        }
       }else {
         result+=",身份为教师";
       }
@@ -94,5 +119,19 @@ public class HelloWorld {
     }
     System.out.println(result);
     return result;
+  }
+
+  /**
+   * 判断是否全为数字
+   * @param address mail-address
+   * @return true or false
+   */
+  private boolean onlyNumber(String address) {
+    for(char c:address.toCharArray()){
+      if(!Character.isDigit(c)){
+        return false;
+      }
+    }
+    return true;
   }
 }

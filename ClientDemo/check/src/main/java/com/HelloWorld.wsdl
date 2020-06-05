@@ -6,14 +6,14 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
   <schema elementFormDefault="qualified" targetNamespace="http://example" xmlns="http://www.w3.org/2001/XMLSchema">
    <element name="targetAddress" type="xsd:string"/>
    <element name="sendMailToReturn" type="xsd:string"/>
-   <element name="inputCode" type="xsd:string"/>
+   <element name="input" type="xsd:string"/>
    <element name="checkCodeReturn" type="xsd:string"/>
   </schema>
  </wsdl:types>
 
    <wsdl:message name="checkCodeRequest">
 
-      <wsdl:part element="impl:inputCode" name="inputCode"/>
+      <wsdl:part element="impl:input" name="input"/>
 
    </wsdl:message>
 
@@ -45,7 +45,7 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
 
       </wsdl:operation>
 
-      <wsdl:operation name="checkCode" parameterOrder="inputCode">
+      <wsdl:operation name="checkCode" parameterOrder="input">
 
          <wsdl:input message="impl:checkCodeRequest" name="checkCodeRequest"/>
 

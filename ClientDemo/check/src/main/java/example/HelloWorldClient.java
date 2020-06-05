@@ -15,12 +15,12 @@ public class HelloWorldClient {
           System.out.println(service.sendMailTo(targetAddress));
 
           String inputCode = scanner.nextLine();
-          System.out.println(service.checkCode(inputCode));
+          System.out.println(service.checkCode(targetAddress+":"+inputCode));
 
       } catch (javax.xml.rpc.ServiceException ex) {
           ex.printStackTrace();
       } catch (java.rmi.RemoteException ex) {
           ex.printStackTrace();
-      }  
+      }
   }
 }
