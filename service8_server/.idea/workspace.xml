@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d5c0595-51d5-4065-bd1a-46e3b0ed61b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/entity/ClassScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/entity/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/entity/SortScoreList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/main/java/app.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/main/resources/retrieveResult.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/main/resources/rr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/main/resources/scoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/service/service7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/service/service7Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/transfer/XML_2_bean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service7/out/production/Assignment10_Service7/transfer/bean_2_XML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/Assignment10_Service8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/META-INF/Assignment10_Service8.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/ClassList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/ClassScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/DepartmentList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/PersonInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/PersonalScoreList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/ScoreList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/SortScoreList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/StudentInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/entity/StudentList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/StudentList2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/StudentsManagement.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/StudentsManagement_backup.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/Type.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/resources/retrievedStudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/service/Service8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/service/Service8Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/transfer/Bean2XML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/out/production/Assignment10_Service8/transfer/XML2Bean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/ClassList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/ClassScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/DepartmentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/PersonalScoreList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/ScoreList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/SortScoreList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/StudentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/entity/StudentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/Course.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/Department.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/PersonInfo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/ScoreList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/ScoreList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/Student.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/StudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/StudentList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/StudentList2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/StudentsManagement.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/StudentsManagement_backup.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/Type.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/resources/retrievedStudentList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/service/Service8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/service/Service8Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/transfer/XML2Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service8_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/DOMDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DOMDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Login/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Login/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Login/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Login/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Service7/Assignment10_Service7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Service7/Assignment10_Service7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Service7/src/main/resources/scoreList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Service7/src/main/resources/scoreList.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Service7/src/transfer/bean_2_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Service8/src/transfer/Bean2XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Service7/web/WEB-INF/classes/META-INF/Assignment10_Service7.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment10_Service7/web/WEB-INF/classes/main/resources/scoreList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment10_Service7/web/WEB-INF/classes/main/resources/scoreList.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Service7_server/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service7_server/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Service7_server/out/production/server/META-INF/server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Service7_server/out/production/server/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Service7_server/out/production/server/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Service7_server/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service7_server/src/test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$MAVEN_HOME$" />
+        <option name="userSettingsFile" value="D:\Maven\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ctJIcUl2JxfbdnTancL1wqMrgX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="service8_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.35" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d5c0595-51d5-4065-bd1a-46e3b0ed61b7" name="Default Changelist" comment="" />
+      <created>1591341877740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591341877740</updated>
+      <workItem from="1591341880930" duration="3604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591344563304">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1591344563304" />
+    <state x="548" y="121" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1591344129921">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="548" y="121" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.832@0.0.1536.832" timestamp="1591344129921" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1591345489779">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1591345489779" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1591345489778">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1591345489778" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1591345489778">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1591345489778" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1591345489778">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1591345489778" />
+  </component>
+</project>

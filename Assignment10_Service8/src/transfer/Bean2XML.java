@@ -1,5 +1,7 @@
 package transfer;
-import entity.*;
+
+import entity.Student;
+import entity.StudentList;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -8,16 +10,16 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class bean_2_XML {
-    public void write(SortScoreList sortScoreList, ArrayList<ClassScore> classScoresToAdd, String address) throws JAXBException, IOException {
-        sortScoreList.setClassScores(classScoresToAdd);
-        JAXBContext context = JAXBContext.newInstance(SortScoreList.class);
+public class Bean2XML {
+    public void write(StudentList studentList, ArrayList<Student> studentsToAdd, String address) throws JAXBException, IOException {
+        studentList.setStudents(studentsToAdd);
+        JAXBContext context = JAXBContext.newInstance(StudentList.class);
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         File file = new File(address);
         if(!file.exists()){
             file.createNewFile();
         }
-        marshaller.marshal(sortScoreList, file);
+        marshaller.marshal(studentList, file);
     }
 }

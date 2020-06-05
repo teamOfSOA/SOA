@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<definitions
+        xmlns="http://schemas.xmlsoap.org/wsdl/"
+        targetNamespace="http://jw.nju.edu.cn/wsdl"
+        xmlns:tns="http://jw.nju.edu.cn/wsdl"
+        xmlns:ghns="http://jw.nju.edu.cn/schema"
+        xmlns:wsoap="http://schemas.xmlsoap.org/wsdl/soap">
+    <documentation>
+        学生信息管理服务+学生账号认证服务
+    </documentation>
+    <types>
+        <xs:schema
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                targetNamespace="http://jw.nju.edu.cn/schema">
+            <xs:import namespace="http://jw.nju.edu.cn/schema" schemaLocation="Type.xsd"/>
+        </xs:schema>
+    </types>
+    <message name="invalidDateError">
+        <part name="invalidDateError" element="tns:error"/>
+    </message>
+    <message name="notExistDateError">
+        <part name="notExistDateError" element="tns:error"/>
+    </message>
+    <message name="c_Request">
+        <part name="c_Request" element="tns:c_Request"/>
+    </message>
+    <message name="c_Response">
+        <part name="c_Response" element="tns:c_Response"/>
+    </message>
+    <message name="r_Request">
+        <part name="r_Request" element="tns:r_Request"/>
+    </message>
+    <message name="r_Response">
+        <part name="r_Response" element="tns:r_Response"/>
+    </message>
+    <message name="u_Request">
+        <part name="u_Request" element="tns:u_Request"/>
+    </message>
+    <message name="u_Response">
+        <part name="u_Response" element="tns:u_Response"/>
+    </message>
+    <message name="d_Request">
+        <part name="d_Request" element="tns:d_Request"/>
+    </message>
+    <message name="d_Response">
+        <part name="d_Response" element="tns:d_Response"/>
+    </message>
+    <message name="log_Request">
+        <part name="log_Request" element="tns:log_Request"/>
+    </message>
+    <message name="load_Response">
+        <part name="load_Response" element="tns:log_Response"/>
+    </message>
+    <portType name="studentPersonalInfoManageInterface">
+        <operation name="studentPersonalInfoAdd">
+            <input name="In" message="c_Request"/>
+            <output name="Out" message="c_Response"/>
+            <fault name="invalidDateError" message="tns:invalidDateError"/>
+            <fault name="notExistDateError" message="tns:notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoDelete">
+            <input name="In" message="d_Request"/>
+            <output name="Out" message="d_Response"/>
+            <fault name="notExistDateError" message="tns:notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoUpdate">
+            <input name="In" message="u_Request"/>
+            <output name="Out" message="u_Response"/>
+            <fault name="invalidDateError" message="tns:invalidDateError"/>
+            <fault name="notExistDateError" message="tns:notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoRead">
+            <input name="In" message="r_Request"/>
+            <output name="Out" message="r_Response"/>
+            <fault name="notExistDateError" message="tns:notExistDateError"/>
+        </operation>
+    </portType>
+<!--    <interface name="studentIdentityValidationInterface">-->
+<!--        <fault name="notExistDateError"-->
+<!--               element="ghns:error"/>-->
+<!--        <fault name="noPermissionError"-->
+<!--               element="ghns:error"/>-->
+<!--        <operation name="studentIDValidation"-->
+<!--                   pattern="http://www.w3.org/ns/wsdl/in-out"-->
+<!--                   style="http://www.w3.org/ns/wsdl/style/in"-->
+<!--                   wsdlx:safe="true">-->
+<!--            <input messageLabel="In" element="ghns:load_Request"/>-->
+<!--            <output messageLable="Out" element="ghns:load_Response"/>-->
+<!--            <infault ref="tns:notExistDateError" messageLabel="In"/>-->
+<!--        </operation>-->
+<!--        <operation name="studentDepartmentValidation"-->
+<!--                   pattern="http://www.w3.org/ns/wsdl/in-out"-->
+<!--                   style="http://www.w3.org/ns/wsdl/style/in"-->
+<!--                   wsdlx:safe="true">-->
+<!--            <input messageLabel="In" element="ghns:load_Request"/>-->
+<!--            <output messageLable="Out" element="ghns:load_Response"/>-->
+<!--            <outfault ref="tns:noPermissionError" messageLabel="Out"/>-->
+<!--        </operation>-->
+<!--    </interface>-->
+    <binding name="studentPersonalInfoManageSOAPBinding"
+             type="wsoap:studentPersonalInfoManageInterface">
+        <operation name="studentPersonalInfoAdd">
+            <input name="In"/>
+            <output name="Out"/>
+            <fault name="invalidDateError"/>
+            <fault name="notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoDelete">
+            <input name="In"/>
+            <output name="Out"/>
+            <fault name="notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoUpdate">
+            <input name="In"/>
+            <output name="Out"/>
+            <fault name="invalidDateError"/>
+            <fault name="notExistDateError"/>
+        </operation>
+        <operation name="studentPersonalInfoRead">
+            <input name="In"/>
+            <output name="Out"/>
+            <fault name="notExistDateError"/>
+        </operation>
+    </binding>
+<!--    <binding name="studentIdentityValidationSOAPBinding"-->
+<!--             type="http://schemas.xmlsoap.org/wsdl/soap">-->
+<!--        <operation ref="studentIDValidation"-->
+<!--                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>-->
+<!--        <operation ref="studentDepartmentValidation"-->
+<!--                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/soap-response"/>-->
+<!--        <fault ref="tns:notExistFault"-->
+<!--               wsoap:code="soap:Sender"/>-->
+<!--        <fault ref="tns:noPermissionError"-->
+<!--               wsoap:code="soap:Sender"/>-->
+<!--    </binding>-->
+    <service name="studentPersonalInfoManageService">
+        <port name="studentPersonalInfoManagePort"
+              binding="tns:studentPersonalInfoManageSOAPBinding">
+            <wsoap:address location="http://192.168.1.100:8080"/>
+        </port>
+    </service>
+<!--    <service name="studentIdentityValidationService"-->
+<!--             interface="tns:studentIdentityValidationInterface">-->
+<!--        <endpoint name="studentIdentityValidationEndpoint"-->
+<!--                  binding="studentIdentityValidationSOAPBinding"-->
+<!--                  address="http://jw.nju.edu.cn/studentValidationSvc"/>-->
+<!--    </service>-->
+</definitions>
