@@ -1,6 +1,5 @@
 package example;
 
-
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import java.util.Properties;
@@ -45,7 +44,7 @@ public class HelloWorld {
     // 发送邮件
     ts.sendMessage(message, message.getAllRecipients());
     ts.close();
-    String result = "Send email to" + targetAddress + "successfully";
+    String result = "发送邮件到" + targetAddress + "成功";
     System.out.println(result);
     return result;
   }
@@ -85,6 +84,11 @@ public class HelloWorld {
     String result;
     if(code.equals(inputCode)){
       result = "验证成功";
+      if(target.contains("smail")){
+        result+=",身份为学生";
+      }else {
+        result+=",身份为教师";
+      }
     }else{
       result = "验证失败";
     }
